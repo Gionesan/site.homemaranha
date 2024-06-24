@@ -1,0 +1,126 @@
+*{
+    margin:0px;
+    padding: 0px;
+    }
+    body{
+    font-family: "Copperplate Gothic Bold";
+    }
+
+    .brabo{
+        background-image: url('../img/wall3.jpg');
+        background-repeat: no-repeat;
+        background-size: cover; /* Ajusta a imagem para caber inteiramente na página */
+        background-position: center; /* Centraliza a imagem */
+        background-attachment: fixed; /* Mantém a imagem fixa enquanto você rola a página */
+
+    }
+    .fim{
+        background-image: url('../img/wall.jpg');
+        background-repeat: no-repeat;
+        background-size: cover; /* Ajusta a imagem para caber inteiramente na página */
+        background-position: center; /* Centraliza a imagem */
+        background-attachment: fixed; /* Mantém a imagem fixa enquanto você rola a página */
+    
+    }
+    
+    .entrega{
+        background-image: url('../img/rock.jpg');
+        background-repeat: no-repeat;
+        background-size: cover; /* Ajusta a imagem para caber inteiramente na página */
+        background-position: center; /* Centraliza a imagem */
+        background-attachment: fixed; /* Mantém a imagem fixa enquanto você rola a página */
+
+    }
+    .center{
+        position: fixed;
+    }
+
+    .menu {
+        width: 100%; /* Faz com que o menu ocupe 100% da largura da tela */
+        overflow: hidden; /* Para conter os itens flutuantes */
+    }
+    
+    .menu ul {
+        margin: 0;
+        padding: 0;
+        display: table;
+        width: 100%;
+        table-layout: fixed; /* Faz com que os itens fiquem com larguras iguais */
+    }
+    
+    .menu ul li {
+        background-color: Crimson;
+        color: white;
+        float: left;
+        width: 20%; /* Largura percentual para dividir igualmente os itens */
+        height: 40px; /* Altura */
+        display: table-cell;
+        text-align: center;
+        vertical-align: middle; /* Centraliza o texto verticalmente */
+        font-size: 25px;
+        position: relative;
+    }
+    
+    .menu ul li:hover {
+        background-color: Indigo;
+    }
+    
+    .menu ul ul {
+        display: none;
+        position: absolute;
+        top: 40px; /* Ajusta a posição do submenu */
+        left: 0;
+        width: 100%; /* Faz com que o submenu ocupe 100% da largura do item pai */
+    }
+    
+    .menu ul li:hover > ul {
+        display: block;
+    }
+    
+    .menu ul ul li {
+        background-color: #6da3f9;
+        width: 100%;
+    }
+    
+    .menu ul ul li:hover {
+        background-color: #144aa0;
+    }
+    
+    .menu ul ul ul {
+        top: 0;
+        left: 100%;
+    }
+    
+    .menu ul ul ul li:hover {
+        background-color: #140819;
+    }
+    
+    .menu a {
+        color: white;
+        text-decoration: none; /* Tira a marcação de link */
+    }
+    
+  
+    
+
+
+    @font-face {
+        font-family: 'Copperplate Gothic Bold';
+        src: url('fonts/CopperplateCC-Bold.woff2') format('woff2'),
+            url('fonts/CopperplateCC-Bold.woff2') format('woff');
+        font-weight: 900;
+        font-style: normal;
+        font-display: swap;
+    }
+    
+    .poster{
+        color: white;
+    }
+    
+    .calmo{
+        color: #FF9E01;
+    }
+    textarea{resize:none;
+    }
+
+   
